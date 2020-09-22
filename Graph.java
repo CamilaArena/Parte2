@@ -36,7 +36,7 @@ public class Graph {
 			hnd.setLevel(Level.INFO);
 			
 			logger.addHandler(hnd);
-			logger.setLevel(Level.INFO);
+			logger.setLevel(Level.WARNING);
 			
 			Logger rootLogger=logger.getParent();
 			
